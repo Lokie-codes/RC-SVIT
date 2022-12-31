@@ -1,0 +1,43 @@
+/* Define variables for the footer colors */
+:root {
+  --rotaract-blue: #0072C6;
+  --light-gray: #D3D3D3;
+}
+
+/* Style the footer container */
+footer {
+  background-color: var(--rotaract-blue);
+  color: white;
+  font-size: 14px;
+  padding: 20px;
+}
+
+/* Style the footer links */
+footer a {
+  color: white;
+}
+
+/* Style the footer text */
+footer p {
+  margin: 0;
+}
+
+/* Style the footer social media icons */
+footer .social-media-icons {
+  display: flex;
+  align-items: center;
+}
+
+footer .social-media-icons img {
+  height: 32px;
+  margin-right: 10px;
+}
+
+/* Style the footer copyright text */
+footer .copyright {
+  background-color: var(--light-gray);
+  color: #555;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
