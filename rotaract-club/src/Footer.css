@@ -26,11 +26,15 @@ footer p {
 footer .social-media-icons {
   display: flex;
   align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
 }
 
-footer .social-media-icons img {
-  height: 32px;
-  margin-right: 10px;
+footer .social-media-icons a{
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
 }
 
 /* Style the footer copyright text */

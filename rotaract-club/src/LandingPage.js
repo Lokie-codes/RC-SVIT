@@ -2,10 +2,12 @@ import React from 'react';
 import { Form } from 'react-bootstrap';
 import './LandingPage.css';
 import Footer from './Footer';
+import NavBar from './NavBar';
 
 const LandingPage = () => {
   return (
     <div className='Container'>
+        <NavBar />
         <div className='LandingPage'> 
         <h1>Welcome to the Rotaract Club of SVIT </h1>
         <p>We are a group of dedicated students who are committed to making a difference in our community through service and leadership.</p>

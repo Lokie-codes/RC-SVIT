@@ -1,0 +1,63 @@
+/* Define variables for the nav bar colors */
+:root {
+  --rotaract-blue: #0072C6;
+  --white: #ffffff;
+}
+
+/* Style the nav bar container */
+nav {
+  background-color: var(--rotaract-blue);
+}
+
+/* Style the nav bar links */
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  color: var(--white);
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Make the nav bar responsive */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  nav a {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  nav a {
+    padding: 20px;
+  }
+}

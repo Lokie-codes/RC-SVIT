@@ -1,5 +1,8 @@
 import React from 'react';
 import './Footer.css';
+import {BsFacebook} from 'react-icons/bs'
+import {BsTwitter} from 'react-icons/bs'
+import {BsInstagram} from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -9,15 +12,15 @@ const Footer = () => {
           <div className="col-md-4">
             <h3>Contact Us</h3>
             <p>Rotaract Club of SVIT<br />
-              College Campus<br />
-              Anytown, USA 12345</p>
+              Sai Vidya Institute of Technology<br />
+              Rajanukunte, Bengaluru-560064</p>
           </div>
           <div className="col-md-4">
             <h3>Follow Us</h3>
             <div className="social-media-icons">
-              <a href="#"><img src="facebook.png" alt="Facebook" /></a>
-              <a href="#"><img src="twitter.png" alt="Twitter" /></a>
-              <a href="#"><img src="instagram.png" alt="Instagram" /></a>
+              <a href="#" target="_blank" title='Facebook'><BsFacebook/></a>
+              <a href="#" target="_blank" title='Twitter'><BsTwitter/></a>
+              <a href="#" target="_blank" title='Instagram'><BsInstagram/></a>
             </div>
           </div>
           <div className="col-md-4">
@@ -31,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright">
-          Copyright &copy; 2021 Rotaract Club of SVIT. All rights reserved.
+          Copyright &copy; 2023 Rotaract Club of SVIT. All rights reserved.
         </div>
       </div>
     </footer>
