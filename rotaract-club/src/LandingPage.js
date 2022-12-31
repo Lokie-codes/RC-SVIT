@@ -1,6 +1,7 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 import './LandingPage.css';
+import Footer from './Footer';
 
 const LandingPage = () => {
   return (
@@ -29,6 +30,7 @@ const LandingPage = () => {
             </Form.Group>
         </Form>
         </div> {/* Form */} 
+        <Footer />
     </div>
   );
 };
