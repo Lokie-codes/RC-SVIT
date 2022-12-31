@@ -18,9 +18,9 @@ const Footer = () => {
           <div className="col-md-4">
             <h3>Follow Us</h3>
             <div className="social-media-icons">
-              <a href="#" target="_blank" title='Facebook'><BsFacebook/></a>
-              <a href="#" target="_blank" title='Twitter'><BsTwitter/></a>
-              <a href="#" target="_blank" title='Instagram'><BsInstagram/></a>
+              <a href="https://facebook.com/rotaract.svit" target="_blank" title='Facebook'><BsFacebook/></a>
+              <a href="https://facebook.com/rotaract.svit" target="_blank" title='Twitter'><BsTwitter/></a>
+              <a href="https://instagram.com/rotaract.svit" target="_blank" title='Instagram'><BsInstagram/></a>
             </div>
           </div>
           <div className="col-md-4">

@@ -1,18 +1,19 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 import './LandingPage.css';
-import Footer from './Footer';
-import NavBar from './NavBar';
+import Footer from '../Footer/Footer';
+import NavBar from '../NavBar/NavBar';
 
 const LandingPage = () => {
   return (
     <div className='Container'>
         <NavBar />
+
         <div className='LandingPage'> 
-        <h1>Welcome to the Rotaract Club of SVIT </h1>
-        <p>We are a group of dedicated students who are committed to making a difference in our community through service and leadership.</p>
-        
-        </div> {/* LandingPage */}        
+          <h1>Welcome to the Rotaract Club of SVIT </h1>
+          <p>We are a group of dedicated students who are committed to making a difference in our community through service and leadership.</p>
+        </div> {/* LandingPage */}  
+
         <div class='Form'>
             <Form>
             <Form.Group controlId="formName">
@@ -25,10 +26,10 @@ const LandingPage = () => {
             </Form.Group>
             <Form.Group controlId="formMessage">
             <Form.Label>Message</Form.Label>
-            <Form.Control as="textarea" rows="3" />
+            <Form.Control as="textarea" rows="6" />
             </Form.Group>
             <Form.Group controlId="formSubmit">
-            <Form.Control type="submit" value="Submit" />
+            <Form.Control type="submit" value="Submit" className='btn-primary'/>
             </Form.Group>
         </Form>
         </div> {/* Form */} 
